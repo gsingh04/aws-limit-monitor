@@ -16,7 +16,8 @@
         "mocha": "*",
         "aws-sdk-mock": "*",
         "aws-sdk": "*",
-        "npm-run-all": "*"
+        "npm-run-all": "*",
+         "coveralls": "*"
     },
     "scripts": {
         "pretest": "npm install",
@@ -26,7 +27,7 @@
         "build:install": "cp package.json dist/ && cd dist && npm install --production",
         "build": "npm-run-all -s build-init build:copy build:install",
         "zip": "cd dist && zip -rq limtr-slack-service.zip .",
-        "coverage": "nyc npm test"
+        "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
     },
     "bundledDependencies": []
 }
