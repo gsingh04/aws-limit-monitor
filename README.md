@@ -1,5 +1,5 @@
 # AWS Limit Monitor Solution 
-[![Test Status](https://travis-ci.com/gsingh04/aws-limit-monitor.svg?branch=master)](https://travis-ci.com/gsingh04/aws-limit-monitor)
+[![Build Status](https://travis-ci.com/gsingh04/aws-limit-monitor.svg?branch=master)](https://travis-ci.com/gsingh04/aws-limit-monitor)
 [![Dependency Status](https://david-dm.org/gsingh04/aws-limit-monitor.svg)](https://david-dm.org/gsingh04/aws-limit-monitor)
 [![Coverage Status](https://coveralls.io/repos/github/gsingh04/aws-limit-monitor/badge.svg?branch=master)](https://coveralls.io/github/gsingh04/aws-limit-monitor?branch=master)
 
