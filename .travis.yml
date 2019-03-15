@@ -7,7 +7,7 @@ before_install:
   - npm update
 
 install:
-  - cd source/services/tarefresh && npm install
+#   - cd source/services/tarefresh && npm install
 
 jobs:  
   include:
