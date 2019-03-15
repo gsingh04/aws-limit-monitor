@@ -1,5 +1,8 @@
 language: node_js
 
+env:
+  - COVERALLS_PARALLEL=true
+
 node_js:
   - 8.10
 
@@ -30,6 +33,7 @@ jobs:
         - npm run coverage 
 
 notifications:
+  webhooks: https://coveralls.io/webhook
   email:
     recipients:
       - garvit.singh4@gmail.com
