@@ -25,7 +25,7 @@ jobs:
     - stage: coverage2
       name: "Check Coverage for Slack MicroService"
       script:
-        - source/services/slacknotify && npm install
+        - cd source/services/slacknotify && npm install
         - npm run coverage
 
 notifications:
