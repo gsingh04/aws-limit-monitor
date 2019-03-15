@@ -19,7 +19,8 @@
         "mocha": "*",
         "aws-sdk-mock": "*",
         "aws-sdk": "*",
-        "npm-run-all": "*"
+        "npm-run-all": "*",
+        "coveralls": "*"
     },
     "scripts": {
         "pretest": "npm install",
