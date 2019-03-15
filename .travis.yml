@@ -3,15 +3,24 @@ language: node_js
 node_js:
   - 8.10
 
+before_install:
+  - npm update
+
+install:
+  - cd source/services/tarefresh && npm install
+
 jobs:  
   include:
-    - stage: test                # naming the Tests stage
-      name: "Unit Tests"            # names the first Tests stage job
-      script: cd deployment && chmod +x ./run-unit-tests.sh && ./run-unit-tests.sh
-    - stage: build
-      name: "Build Solution Artifacts"
-      script: cd deployment && chmod +x ./build-s3-dist.sh && ./build-s3-dist.sh my_bucket my_bucket vX.Y
-
+#     - stage: test                # naming the Tests stage
+#       name: "Unit Tests"            # names the first Tests stage job
+#       script: cd deployment && chmod +x ./run-unit-tests.sh && ./run-unit-tests.sh
+#     - stage: build
+#       name: "Build Solution Artifacts"
+#       script: cd deployment && chmod +x ./build-s3-dist.sh && ./build-s3-dist.sh my_bucket my_bucket vX.Y
+    - stage: coverage
+      name: "Check Coverage"
+      script:
+        - npm run coverage
 notifications:
   email:
     recipients:
