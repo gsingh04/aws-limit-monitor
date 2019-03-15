@@ -1,4 +1,4 @@
-# AWS Limit Monitor Solution [![Linux Build Status](https://travis-ci.org/gsingh04/aws-limit-monitor.svg?branch=master)](https://travis-ci.org/gsingh04/aws-limit-monitor)
+# AWS Limit Monitor Solution [![Linux Build Status](https://travis-ci.com/gsingh04/aws-limit-monitor.svg?branch=master)](https://travis-ci.com/gsingh04/aws-limit-monitor)
 [![Dependency Status](https://david-dm.org/gsingh04/aws-limit-monitor)](https://david-dm.org/gsingh04/aws-limit-monitor)
 [![Coverage Status](https://coveralls.io/repos/gsingh04/aws-limit-monitor.svg?branch=master)](https://coveralls.io/gsingh04/aws-limit-monitor?branch=master)
 
