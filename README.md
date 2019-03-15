@@ -1,5 +1,5 @@
 # AWS Limit Monitor Solution [![Linux Build Status](https://travis-ci.com/gsingh04/aws-limit-monitor.svg?branch=master)](https://travis-ci.com/gsingh04/aws-limit-monitor)
-[![Dependency Status](https://david-dm.org/gsingh04/aws-limit-monitor)](https://david-dm.org/gsingh04/aws-limit-monitor)
+[![Dependency Status](https://david-dm.org/gsingh04/aws-limit-monitor.svg)](https://david-dm.org/gsingh04/aws-limit-monitor)
 [![Coverage Status](https://coveralls.io/repos/gsingh04/aws-limit-monitor.svg?branch=master)](https://coveralls.io/gsingh04/aws-limit-monitor?branch=master)
 
 The AWS Limit Monitor Solution is a reference implementation that provides a foundation for monitoring AWS service limits. Customers can leverage the solution to monitor limits across services supported by Amazon Trusted Advisor; in multiple regions and multiple AWS accounts. The solution integrates with Amazon SNS and Slack to notify customers for service limits approaching thresholds.
